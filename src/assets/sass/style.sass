@@ -10264,3 +10264,38 @@ pre[class*="language-"]
 
   .tippy-backdrop
     background-color: #fff !important
+
+.buttons
+  display: flex
+  margin-top: 20px
+  margin-bottom: 40px
+  width: 584px
+  z-index: 100
+  position: relative
+
+  a
+    display: flex
+    align-items: center
+    border-radius: 50px
+    background-color: #53a4db
+    padding: 6px 20px 7px 11px
+    margin-right: 12px
+    box-shadow: 0px 6px 20px -4px transparentize(#53a4db, .5)
+    transition: all linear 150ms
+
+    &:hover
+      transform: translateY(-2px)
+      box-shadow: 0px 6px 20px -2px transparentize(#53a4db, .2)
+
+    img
+      width: 30px
+      height: 30px
+      margin-right: -1px
+      position: relative
+
+    span
+      color: #fff
+      font-weight: 500
+      letter-spacing: 1px
+      font-size: 18px
+      position: relative
