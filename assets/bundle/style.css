@@ -5244,13 +5244,13 @@ html.home {
 .page.home .chapter.chapter-06 .section-title,
 .page.home .chapter.chapter-06 .information,
 .page.home .chapter.chapter-06 .lessons li .lesson-number {
-  color: #705df2;
+  color: #1b6fb0;
 }
 .page.home .chapter.chapter-06 .information .format-icon svg * {
-  stroke: #705df2;
+  stroke: #1b6fb0;
 }
 .page.home .chapter.chapter-06 .grid .line {
-  background: #705df2;
+  background: #1b6fb0;
 }
 .page.home .chapter.chapter-06 .illustration {
   position: absolute;
@@ -5276,13 +5276,13 @@ html.home {
 .page.home .chapter.chapter-08 .section-title,
 .page.home .chapter.chapter-08 .information,
 .page.home .chapter.chapter-08 .lessons li .lesson-number {
-  color: #8bc34a;
+  color: #cb8100;
 }
 .page.home .chapter.chapter-08 .information .format-icon svg * {
-  stroke: #8bc34a;
+  stroke: #cb8100;
 }
 .page.home .chapter.chapter-08 .grid .line {
-  background: #8bc34a;
+  background: #cb8100;
 }
 .page.home .chapter.chapter-08 .illustration {
   position: absolute;
@@ -5292,29 +5292,29 @@ html.home {
 .page.home .chapter.chapter-09 .section-title,
 .page.home .chapter.chapter-09 .information,
 .page.home .chapter.chapter-09 .lessons li .lesson-number {
-  color: #2196f3;
+  color: #8bc34a;
 }
 .page.home .chapter.chapter-09 .information .format-icon svg * {
-  stroke: #2196f3;
+  stroke: #8bc34a;
 }
 .page.home .chapter.chapter-09 .grid .line {
-  background: #2196f3;
+  background: #8bc34a;
 }
 .page.home .chapter.chapter-09 .illustration {
   position: absolute;
-  top: 20px;
-  right: 50px;
+  top: 40px;
+  right: 70px;
 }
 .page.home .chapter.chapter-10 .section-title,
 .page.home .chapter.chapter-10 .information,
 .page.home .chapter.chapter-10 .lessons li .lesson-number {
-  color: #e91e63;
+  color: #fe0a37;
 }
 .page.home .chapter.chapter-10 .information .format-icon svg * {
-  stroke: #e91e63;
+  stroke: #fe0a37;
 }
 .page.home .chapter.chapter-10 .grid .line {
-  background: #e91e63;
+  background: #fe0a37;
 }
 .page.home .chapter.chapter-10 .illustration {
   position: absolute;
