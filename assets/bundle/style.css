@@ -5241,6 +5241,102 @@ html.home {
   top: -55px;
   right: -50px;
 }
+.page.home .chapter.chapter-06 .section-title,
+.page.home .chapter.chapter-06 .information,
+.page.home .chapter.chapter-06 .lessons li .lesson-number {
+  color: #705df2;
+}
+.page.home .chapter.chapter-06 .information .format-icon svg * {
+  stroke: #705df2;
+}
+.page.home .chapter.chapter-06 .grid .line {
+  background: #705df2;
+}
+.page.home .chapter.chapter-06 .illustration {
+  position: absolute;
+  top: -70px;
+  right: -100px;
+}
+.page.home .chapter.chapter-07 .section-title,
+.page.home .chapter.chapter-07 .information,
+.page.home .chapter.chapter-07 .lessons li .lesson-number {
+  color: #24292e;
+}
+.page.home .chapter.chapter-07 .information .format-icon svg * {
+  stroke: #24292e;
+}
+.page.home .chapter.chapter-07 .grid .line {
+  background: #24292e;
+}
+.page.home .chapter.chapter-07 .illustration {
+  position: absolute;
+  top: -70px;
+  right: -100px;
+}
+.page.home .chapter.chapter-08 .section-title,
+.page.home .chapter.chapter-08 .information,
+.page.home .chapter.chapter-08 .lessons li .lesson-number {
+  color: #8bc34a;
+}
+.page.home .chapter.chapter-08 .information .format-icon svg * {
+  stroke: #8bc34a;
+}
+.page.home .chapter.chapter-08 .grid .line {
+  background: #8bc34a;
+}
+.page.home .chapter.chapter-08 .illustration {
+  position: absolute;
+  top: -70px;
+  right: -100px;
+}
+.page.home .chapter.chapter-09 .section-title,
+.page.home .chapter.chapter-09 .information,
+.page.home .chapter.chapter-09 .lessons li .lesson-number {
+  color: #2196f3;
+}
+.page.home .chapter.chapter-09 .information .format-icon svg * {
+  stroke: #2196f3;
+}
+.page.home .chapter.chapter-09 .grid .line {
+  background: #2196f3;
+}
+.page.home .chapter.chapter-09 .illustration {
+  position: absolute;
+  top: -70px;
+  right: -100px;
+}
+.page.home .chapter.chapter-10 .section-title,
+.page.home .chapter.chapter-10 .information,
+.page.home .chapter.chapter-10 .lessons li .lesson-number {
+  color: #e91e63;
+}
+.page.home .chapter.chapter-10 .information .format-icon svg * {
+  stroke: #e91e63;
+}
+.page.home .chapter.chapter-10 .grid .line {
+  background: #e91e63;
+}
+.page.home .chapter.chapter-10 .illustration {
+  position: absolute;
+  top: -70px;
+  right: -100px;
+}
+.page.home .chapter.chapter-11 .section-title,
+.page.home .chapter.chapter-11 .information,
+.page.home .chapter.chapter-11 .lessons li .lesson-number {
+  color: #705df2;
+}
+.page.home .chapter.chapter-11 .information .format-icon svg * {
+  stroke: #705df2;
+}
+.page.home .chapter.chapter-11 .grid .line {
+  background: #705df2;
+}
+.page.home .chapter.chapter-11 .illustration {
+  position: absolute;
+  top: -70px;
+  right: -100px;
+}
 .page.home .chapter .grid {
   position: absolute;
   top: 0;
@@ -6994,52 +7090,53 @@ html.home {
   }
 }
 .page.home section.program .columns {
-  display: flex;
-  justify-content: center;
+  margin: auto;
+  width: fit-content;
 }
-.page.home section.program .columns .column {
+.page.home section.program .columns > div {
   width: 584px;
 }
 @media (max-width: 1600px) {
-  .page.home section.program .columns .column {
+  .page.home section.program .columns > div {
     width: 540px;
   }
 }
 @media (max-width: 1300px) {
-  .page.home section.program .columns .column {
+  .page.home section.program .columns > div {
     width: 460px;
   }
 }
 @media (max-width: 1050px) {
-  .page.home section.program .columns .column {
+  .page.home section.program .columns > div {
     width: 540px;
   }
 }
 @media (max-width: 600px) {
-  .page.home section.program .columns .column {
+  .page.home section.program .columns > div {
     width: auto;
   }
 }
-.page.home section.program .columns .column:first-child {
+.page.home section.program .columns > div:first-child {
   margin-right: 55px;
+  height: fit-content;
 }
 @media (max-width: 1600px) {
-  .page.home section.program .columns .column:first-child {
+  .page.home section.program .columns > div:first-child {
     margin-right: 45px;
   }
 }
 @media (max-width: 1300px) {
-  .page.home section.program .columns .column:first-child {
+  .page.home section.program .columns > div:first-child {
     margin-right: 35px;
   }
 }
 @media (max-width: 1050px) {
-  .page.home section.program .columns .column:first-child {
+  .page.home section.program .columns > div:first-child {
     margin-right: 0;
   }
 }
 @media (max-width: 1050px) {
-  .page.home section.program .columns .column:last-child {
+  .page.home section.program .columns > div:last-child {
     display: none;
   }
 }
@@ -7087,6 +7184,7 @@ html.home {
   border-radius: 15px;
   background: #fff;
   box-shadow: 0px 50px 60px rgba(0,0,0,0.1);
+  height: fit-content;
 }
 @media (max-width: 1600px) {
   .page.home section.program .chapter {
