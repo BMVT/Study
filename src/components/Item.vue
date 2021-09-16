@@ -11,9 +11,9 @@
       <div class="shadow"></div>
     </div>
     <div class="illustration is-visible">
-      <img v-if="i < 5" :src="require(`@/assets/images/program/chapter-${getNum(i+1)}.png`)"
+      <img :class="{ float: i === 2 }" v-if="i < 5" :src="require(`@/assets/images/program/chapter-${getNum(i+1)}.png`)"
         :srcset="require(`@/assets/images/program/chapter-${getNum(i+1)}@2x.png`) + ' 2x'" :width="item.size.width" :height="item.size.height">
-      <img v-else :src="require(`@/assets/images/program/${i+1}.svg`)" :width="item.size.width" :height="item.size.height">
+      <img :class="{ float: i === 5 || i === 9 }" v-else :src="require(`@/assets/images/program/${i+1}.svg`)" :width="item.size.width" :height="item.size.height">
     </div>
     <small class="number element delay-0">{{ getNum(i+1) }}</small>
     <h3 class="section-title element delay-1">{{ item.title }}</h3>

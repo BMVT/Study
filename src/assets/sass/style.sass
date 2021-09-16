@@ -10299,3 +10299,20 @@ pre[class*="language-"]
       letter-spacing: 1px
       font-size: 18px
       position: relative
+
+@keyframes float
+  0%
+    transform: translatey(4px)
+
+  50%
+    transform: translatey(-8px)
+
+  100%
+    transform: translatey(4px)
+
+.float
+  transform: translateY(4px)
+  animation: float 3s ease-in-out infinite
+
+img
+  -webkit-user-drag: none
