@@ -1,5 +1,5 @@
 module.exports = {
-  outputDir: 'build',
+  outputDir: 'docs',
   publicPath: '',
   indexPath: 'index.html',
   chainWebpack: config => {
